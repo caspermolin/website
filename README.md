@@ -1,16 +1,28 @@
-# Posta Vermaas Website
+# POSTA VERMAAS - Database-Driven CMS Website
 
-A modern, fast, and accessible website for Posta Vermaas audio post production company. Built with Next.js 14, TypeScript, and Tailwind CSS.
+Een professionele, volledig database-gedreven website voor POSTA VERMAAS, een toonaangevende audio post productie studio in Amsterdam. Gebouwd met moderne web technologieën en een krachtig Content Management System.
 
-## Features
+## ✨ Belangrijkste Features
 
-- **Modern Design**: Clean, minimal design with 12-column grid system
-- **Responsive**: Mobile-first approach with breakpoints at 360/768/1024/1280/1536px
-- **Accessible**: WCAG 2.1 AA compliant with proper focus management and screen reader support
-- **Fast**: Optimized for performance with Lighthouse scores ≥90
-- **SEO Optimized**: Complete SEO setup with sitemap, robots.txt, and structured data
-- **TypeScript**: Full type safety throughout the application
-- **Tailwind CSS**: Utility-first CSS framework for rapid development
+### 🎨 Moderne Design & Technologie
+- **Database-Driven CMS** - Alle content wordt dynamisch uit database geladen
+- **Admin Panel** - Volledige controle via professionele admin interface
+- **Drag & Drop Page Editor** - Visual content management
+- **Modern Design** - Clean, responsive design met Tailwind CSS
+- **TypeScript** - Volledige type veiligheid
+- **Next.js 14** - App Router voor optimale performance
+
+### 📝 Content Management System
+- **Real-time Content Updates** - Wijzigingen zijn direct zichtbaar
+- **Modulaire Content Blocks** - Hero, Services, USP, Projects, News, Partners
+- **SEO Geoptimaliseerd** - Dynamische metadata en structured data
+- **Multilingual Support** - Uitbreidbaar voor meerdere talen
+
+### 🎵 Audio Post Production Focus
+- **Dolby Atmos Certified** - Professionele audio technologie
+- **Pro Tools Ultimate** - Industry-standard software
+- **Complete Workflow** - Van concept tot delivery
+- **International Portfolio** - 500+ projecten wereldwijd
 
 ## Pages
 
@@ -25,16 +37,17 @@ A modern, fast, and accessible website for Posta Vermaas audio post production c
 - **Contact** (`/contact`) - Contact form and company information
 - **Route** (`/route`) - Location details and directions
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14 with App Router
+- **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
+- **Database**: JSON File-based (extensible naar echte database)
 - **Icons**: Lucide React
-- **Animations**: Framer Motion
-- **Forms**: React Hook Form
-- **SEO**: Next SEO
-- **Image Optimization**: Next.js Image component with Sharp
+- **UI Components**: Custom component library
+- **SEO**: Next.js metadata API + structured data
+- **Image Optimization**: Next.js Image component
+- **API**: RESTful API routes voor alle CRUD operations
 
 ## Getting Started
 
@@ -74,37 +87,55 @@ npm run build
 npm start
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── app/                    # Next.js App Router pages
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Homepage
-│   ├── sitemap.ts         # Sitemap generation
-│   ├── robots.ts          # Robots.txt
-│   ├── manifest.ts        # PWA manifest
-│   └── [pages]/           # Individual pages
+│   ├── api/               # RESTful API routes
+│   │   ├── pages/         # Page content management
+│   │   ├── site/          # Site configuration
+│   │   ├── navigation/    # Menu management
+│   │   └── admin/         # Admin CRUD operations
+│   ├── admin/             # Admin panel pages
+│   ├── [dynamic]/         # Dynamic content pages
+│   └── layout.tsx         # Root layout with metadata
 ├── components/            # React components
-│   ├── layout/           # Layout components (Header, Footer)
-│   ├── sections/         # Page sections
-│   ├── ui/               # Reusable UI components
-│   └── SEO/              # SEO components
-├── data/                 # Static data and content
-├── lib/                  # Utility functions
-└── types/                # TypeScript type definitions
+│   ├── admin/             # Admin interface components
+│   ├── layout/            # Header, Footer, Navigation
+│   ├── sections/          # Page content sections
+│   └── ui/                # Reusable UI components
+├── database/              # JSON database files
+│   ├── pages/             # Page content per page
+│   ├── projects.json      # Project portfolio
+│   ├── people.json        # Team members
+│   ├── news.json          # News articles
+│   └── site.json          # Site configuration
+├── types/                 # TypeScript definitions
+└── data/                  # Legacy static data (being phased out)
 ```
 
-## Content Management
+## 📊 Content Management System
 
-The website uses static data files for content management. To update content:
+### Admin Panel Access
+1. Ga naar `/admin` voor volledige content controle
+2. **Pages Tab** - Bewerk pagina's met drag & drop editor
+3. **Database Tab** - Beheer projecten, mensen en content
+4. **Real-time Updates** - Wijzigingen zijn direct zichtbaar
 
-1. **Projects**: Edit `src/data/projects.ts`
-2. **People**: Edit `src/data/people.ts`
-3. **Services**: Edit `src/data/services.ts`
-4. **News**: Edit `src/data/news.ts`
-5. **Facilities**: Edit `src/data/facilities.ts`
+### Database Entiteiten
+- **Pages** - Website pagina's met modulaire content blocks
+- **Projects** - Film/TV projecten met credits en rollen
+- **People** - Teamleden en freelancers met bio's
+- **News** - Dynamische nieuws artikelen
+- **Navigation** - Menu structuur (header/footer)
+- **Site Settings** - Metadata, contact info, etc.
+
+### API Endpoints
+- `GET/POST /api/pages` - Pagina content management
+- `GET/POST /api/site` - Site configuratie
+- `GET/POST /api/navigation` - Menu beheer
+- `GET/POST /api/admin/database/[type]` - Database CRUD operations
 
 ## SEO Features
 
