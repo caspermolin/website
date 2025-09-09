@@ -1,0 +1,292 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Dolby Atmos",
+      "slug": "dolby-atmos",
+      "description": "Immersive 3D audio experience that places sound in a three-dimensional space around the audience.",
+      "features": [
+        "Object-based audio mixing",
+        "Spatial audio design",
+        "Multi-channel monitoring",
+        "Dolby Atmos Mastering Suite"
+      ],
+      "equipment": [
+        "Dolby Atmos Mastering Suite",
+        "JBL 708P monitors (7.1.4 setup)",
+        "Pro Tools Ultimate with Dolby Atmos Renderer",
+        "Dolby RMU (Rendering and Mastering Unit)"
+      ],
+      "workflow": [
+        "Pre-mix preparation",
+        "Object-based audio placement",
+        "Spatial audio design",
+        "Final mix and mastering"
+      ],
+      "deliverables": [
+        "Dolby Atmos master file (.atmos)",
+        "7.1.4 stems",
+        "5.1 and stereo downmixes",
+        "Quality control reports"
+      ],
+      "icon": "speaker",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Re-recording",
+      "slug": "re-recording",
+      "description": "Professional re-recording mixing services for film, television, and streaming content.",
+      "features": [
+        "Multi-track mixing",
+        "Dialogue editing and cleanup",
+        "Music and effects balancing",
+        "Final mix delivery"
+      ],
+      "equipment": [
+        "Pro Tools Ultimate",
+        "Avid S6 console",
+        "JBL 708P monitoring system",
+        "Neumann U87 microphones"
+      ],
+      "workflow": [
+        "Pre-mix preparation",
+        "Dialogue editing",
+        "Music and effects integration",
+        "Final mix and delivery"
+      ],
+      "deliverables": [
+        "Final mix masters",
+        "Stems (dialogue, music, effects)",
+        "M&E (music and effects) tracks",
+        "Quality control reports"
+      ],
+      "icon": "mixer",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Sound Design",
+      "slug": "sound-design",
+      "description": "Creative sound design services that enhance storytelling and create immersive audio experiences.",
+      "features": [
+        "Custom sound effects creation",
+        "Ambient sound design",
+        "Character sound signatures",
+        "Creative audio solutions"
+      ],
+      "equipment": [
+        "Pro Tools Ultimate",
+        "Native Instruments Komplete",
+        "Field recording equipment",
+        "Custom sound libraries"
+      ],
+      "workflow": [
+        "Creative consultation",
+        "Sound design development",
+        "Implementation and integration",
+        "Final polish and delivery"
+      ],
+      "deliverables": [
+        "Custom sound effects library",
+        "Ambient soundscapes",
+        "Character sound signatures",
+        "Implementation guide"
+      ],
+      "icon": "headphones",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "Foley",
+      "slug": "foley",
+      "description": "Custom foley services that bring authenticity and detail to every scene.",
+      "features": [
+        "Custom footsteps and movement",
+        "Prop and object sounds",
+        "Clothing and fabric sounds",
+        "Environmental foley"
+      ],
+      "equipment": [
+        "Dedicated foley stage",
+        "High-quality microphones",
+        "Extensive prop collection",
+        "Various surface materials"
+      ],
+      "workflow": [
+        "Scene analysis",
+        "Foley recording sessions",
+        "Editing and processing",
+        "Integration with final mix"
+      ],
+      "deliverables": [
+        "Foley tracks",
+        "Sync reference",
+        "Foley breakdown",
+        "Quality control reports"
+      ],
+      "icon": "footsteps",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "ADR",
+      "slug": "adr",
+      "description": "Professional ADR (Automated Dialogue Replacement) services with experienced voice direction.",
+      "features": [
+        "Professional voice direction",
+        "Actor coaching and guidance",
+        "Seamless dialogue replacement",
+        "Multiple language support"
+      ],
+      "equipment": [
+        "Sound-isolated ADR booth",
+        "High-quality microphones",
+        "Real-time monitoring",
+        "Video playback systems"
+      ],
+      "workflow": [
+        "Script analysis",
+        "Actor preparation",
+        "Recording sessions",
+        "Post-processing and integration"
+      ],
+      "deliverables": [
+        "ADR tracks",
+        "Sync reference",
+        "Quality control reports",
+        "Multiple language versions"
+      ],
+      "icon": "microphone",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "title": "Commercials",
+      "slug": "commercials",
+      "description": "High-impact audio post production for commercial and advertising content.",
+      "features": [
+        "Quick turnaround times",
+        "Brand-specific audio identity",
+        "Multiple format delivery",
+        "Creative audio solutions"
+      ],
+      "equipment": [
+        "Pro Tools Ultimate",
+        "High-end monitoring",
+        "Commercial music libraries",
+        "Voice talent network"
+      ],
+      "workflow": [
+        "Creative brief analysis",
+        "Audio production",
+        "Client review and revisions",
+        "Final delivery"
+      ],
+      "deliverables": [
+        "Final commercial audio",
+        "Multiple format versions",
+        "Stems for international versions",
+        "Quality control reports"
+      ],
+      "icon": "tv",
+      "featured": true
+    },
+    {
+      "id": "7",
+      "title": "Audio Post Producing",
+      "slug": "audio-post-producing",
+      "description": "Complete audio post production management from pre-production to final delivery.",
+      "features": [
+        "Project management",
+        "Quality control",
+        "Delivery coordination",
+        "Client communication"
+      ],
+      "equipment": [
+        "Project management software",
+        "Quality control systems",
+        "Delivery platforms",
+        "Communication tools"
+      ],
+      "workflow": [
+        "Pre-production planning",
+        "Production coordination",
+        "Post-production management",
+        "Final delivery and archiving"
+      ],
+      "deliverables": [
+        "Project documentation",
+        "Quality control reports",
+        "Delivery packages",
+        "Archive materials"
+      ],
+      "icon": "settings",
+      "featured": true
+    },
+    {
+      "id": "8",
+      "title": "Source Connect",
+      "slug": "source-connect",
+      "description": "Remote collaboration services using Source Connect for real-time audio streaming.",
+      "features": [
+        "Real-time audio streaming",
+        "Remote monitoring",
+        "Client collaboration",
+        "High-quality audio transmission"
+      ],
+      "equipment": [
+        "Source Connect Pro",
+        "High-speed internet",
+        "Professional audio interfaces",
+        "Remote monitoring setup"
+      ],
+      "workflow": [
+        "Connection setup",
+        "Real-time collaboration",
+        "Audio streaming",
+        "Session recording"
+      ],
+      "deliverables": [
+        "Session recordings",
+        "Collaboration logs",
+        "Quality control reports",
+        "Client feedback integration"
+      ],
+      "icon": "wifi",
+      "featured": true
+    },
+    {
+      "id": "9",
+      "title": "Picture Services",
+      "slug": "picture-services",
+      "description": "Complete picture post production services including editing, color grading, and final delivery.",
+      "features": [
+        "Picture editing",
+        "Color grading",
+        "Visual effects integration",
+        "Final delivery"
+      ],
+      "equipment": [
+        "Avid Media Composer",
+        "DaVinci Resolve",
+        "4K monitoring",
+        "Professional storage"
+      ],
+      "workflow": [
+        "Picture editing",
+        "Color grading",
+        "Visual effects",
+        "Final delivery"
+      ],
+      "deliverables": [
+        "Final picture master",
+        "Color correction reports",
+        "Multiple format versions",
+        "Quality control reports"
+      ],
+      "icon": "film",
+      "featured": true
+    }
+  ]
+}

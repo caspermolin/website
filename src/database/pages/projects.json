@@ -1,0 +1,140 @@
+{
+  "id": "projects",
+  "title": "Projects",
+  "path": "/projects",
+  "type": "page",
+  "sections": [
+    {
+      "id": "projects-hero",
+      "name": "Projects Hero",
+      "type": "hero",
+      "content": {
+        "title": "Our Projects",
+        "subtitle": "Featured Audio Post Production Work",
+        "description": "Discover some of our most recent and acclaimed audio post production work across feature films, television series, and streaming content.",
+        "ctaText": "View All Projects",
+        "ctaLink": "/projects"
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-br from-primary-50 via-white to-accent-50",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "projects-stats",
+      "name": "Projects Stats",
+      "type": "stats",
+      "content": {
+        "title": "Our Impact",
+        "subtitle": "Numbers that speak to our experience and success",
+        "stats": [
+          {
+            "label": "Projects Completed",
+            "value": "200+",
+            "description": "Feature films and TV series"
+          },
+          {
+            "label": "Years Experience",
+            "value": "15+",
+            "description": "In audio post production"
+          },
+          {
+            "label": "International Credits",
+            "value": "50+",
+            "description": "Co-productions worldwide"
+          },
+          {
+            "label": "Awards Won",
+            "value": "12+",
+            "description": "Industry recognition"
+          }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "featured-projects",
+      "name": "Featured Projects",
+      "type": "featured-projects",
+      "content": {
+        "title": "Featured Projects",
+        "subtitle": "Discover some of our most recent and acclaimed audio post production work",
+        "ctaText": "View All Projects",
+        "ctaLink": "/projects",
+        "projects": []
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "projects-cta",
+      "name": "Projects CTA",
+      "type": "cta",
+      "content": {
+        "title": "Ready to Start Your Project?",
+        "subtitle": "Let's discuss how we can bring your vision to life with exceptional audio post production",
+        "ctaText": "Get Started",
+        "ctaLink": "/contact",
+        "secondaryCtaText": "View Our Work",
+        "secondaryCtaLink": "/projects"
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-br from-blue-600 to-indigo-700",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "Projects - Posta Vermaas Audio Post Production",
+    "description": "Discover our featured audio post production projects including feature films, television series, and streaming content.",
+    "keywords": [
+      "audio post production projects",
+      "feature films",
+      "television series",
+      "streaming content",
+      "Dolby Atmos projects",
+      "sound design projects"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/projects",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": true,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2024-01-15T10:00:00.000Z"
+}

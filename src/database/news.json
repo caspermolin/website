@@ -1,0 +1,20 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "Posta Vermaas Wins Gouden Kalf for Sound Design",
+      "slug": "gouden-kalf-de-held",
+      "excerpt": "Our sound design work has earned us a prestigious Gouden Kalf award.",
+      "content": "We are thrilled to announce our latest achievement...",
+      "publishedAt": "2024-10-01",
+      "heroImage": "/images/news/gouden-kalf-de-held.jpg",
+      "category": "Awards",
+      "tags": [
+        "Gouden Kalf",
+        "Awards",
+        "Sound Design"
+      ],
+      "featured": true
+    }
+  ]
+}

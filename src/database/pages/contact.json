@@ -1,0 +1,115 @@
+{
+  "id": "contact",
+  "title": "Contact",
+  "path": "/contact",
+  "type": "page",
+  "sections": [
+    {
+      "id": "contact-hero",
+      "name": "Contact Hero",
+      "type": "hero",
+      "content": {
+        "title": "Contact Us",
+        "subtitle": "Get in Touch",
+        "description": "Ready to work with us? Get in touch to discuss your project.",
+        "ctaText": "Send Message",
+        "ctaLink": "#contact-form"
+      },
+      "images": [],
+      "settings": {
+        "background": "gradient-to-br from-slate-50 to-blue-50",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "contact-info",
+      "name": "Contact Information",
+      "type": "contact-info",
+      "content": {
+        "title": "Get in Touch",
+        "subtitle": "We're here to help with your audio post production needs",
+        "locations": [
+          {
+            "name": "Main Location",
+            "address": "Koivistokade 58",
+            "postalCode": "1018 WB",
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "phone": "+31 20 123 4567",
+            "email": "info@postavermaas.com"
+          },
+          {
+            "name": "Secondary Location",
+            "address": "Brantasgracht 11",
+            "postalCode": "1018 XT",
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "phone": "+31 20 123 4567",
+            "email": "info@postavermaas.com"
+          }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "contact-form",
+      "name": "Contact Form",
+      "type": "contact-form",
+      "content": {
+        "title": "Send us a Message",
+        "subtitle": "Fill out the form below and we'll get back to you within 24 hours",
+        "formFields": [
+          { "name": "name", "label": "Full Name", "type": "text", "required": true },
+          { "name": "email", "label": "Email Address", "type": "email", "required": true },
+          { "name": "company", "label": "Company", "type": "text", "required": false },
+          { "name": "project", "label": "Project Type", "type": "select", "required": true, "options": ["Feature Film", "TV Series", "Commercial", "Documentary", "Other"] },
+          { "name": "message", "label": "Message", "type": "textarea", "required": true }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "left",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "Contact Us - Posta Vermaas",
+    "description": "Get in touch with Posta Vermaas for your audio post production needs.",
+    "keywords": [
+      "contact Posta Vermaas",
+      "audio post production contact"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/contact",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": true,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2024-01-10T10:00:00.000Z"
+}

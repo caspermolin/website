@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sound_designer",
+    "name": "Sound Designer",
+    "category": "core",
+    "description": "Responsible for creating and designing the overall sound landscape of a production",
+    "order": 1
+  },
+  {
+    "id": "re_recording_mixer",
+    "name": "Re-recording Mixer",
+    "category": "core",
+    "description": "Mixes the final audio track combining dialogue, sound effects, and music",
+    "order": 2
+  },
+  {
+    "id": "audio_post_producer",
+    "name": "Audio Post Producer",
+    "category": "core",
+    "description": "Oversees the entire audio post-production process",
+    "order": 3
+  },
+  {
+    "id": "sound_editor",
+    "name": "Sound Editor",
+    "category": "core",
+    "description": "Edits and organizes sound effects and dialogue",
+    "order": 4
+  },
+  {
+    "id": "dialogue_editor",
+    "name": "Dialogue Editor",
+    "category": "core",
+    "description": "Edits and cleans up dialogue tracks",
+    "order": 5
+  },
+  {
+    "id": "adr_supervisor",
+    "name": "ADR Supervisor",
+    "category": "core",
+    "description": "Supervises the automated dialogue replacement process",
+    "order": 6
+  },
+  {
+    "id": "foley_artist",
+    "name": "Foley Artist",
+    "category": "core",
+    "description": "Creates and records sound effects for footsteps, props, and other practical sounds",
+    "order": 7
+  },
+  {
+    "id": "production_sound_mixer",
+    "name": "Production Sound Mixer",
+    "category": "core",
+    "description": "Records audio on set during production",
+    "order": 8
+  },
+  {
+    "id": "music_supervisor",
+    "name": "Music Supervisor",
+    "category": "additional",
+    "description": "Selects and supervises music for the production",
+    "order": 9
+  },
+  {
+    "id": "audio_engineer",
+    "name": "Audio Engineer",
+    "category": "additional",
+    "description": "Technical audio specialist for recording and mixing",
+    "order": 10
+  },
+  {
+    "id": "location_sound_recordist",
+    "name": "Location Sound Recordist",
+    "category": "additional",
+    "description": "Records sound on location shoots",
+    "order": 11
+  },
+  {
+    "id": "post_production_supervisor",
+    "name": "Post Production Supervisor",
+    "category": "additional",
+    "description": "Oversees the entire post-production process",
+    "order": 12
+  },
+  {
+    "id": "sound_effects_designer",
+    "name": "Sound Effects Designer",
+    "category": "additional",
+    "description": "Creates custom sound effects",
+    "order": 13
+  },
+  {
+    "id": "voice_over_director",
+    "name": "Voice Over Director",
+    "category": "additional",
+    "description": "Directs voice over recordings",
+    "order": 14
+  },
+  {
+    "id": "dubbing_director",
+    "name": "Dubbing Director",
+    "category": "additional",
+    "description": "Directs foreign language dubbing",
+    "order": 15
+  },
+  {
+    "id": "test",
+    "name": "Test",
+    "category": "additional",
+    "description": "",
+    "order": 16
+  }
+]

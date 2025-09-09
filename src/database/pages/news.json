@@ -1,0 +1,148 @@
+{
+  "id": "news",
+  "title": "News",
+  "path": "/news",
+  "type": "page",
+  "sections": [
+    {
+      "id": "news-hero",
+      "name": "News Hero",
+      "type": "hero",
+      "content": {
+        "title": "Latest News",
+        "subtitle": "Stay Updated",
+        "description": "Stay informed about our latest projects, industry insights, and company news from Posta Vermaas audio post production.",
+        "ctaText": "Read All News",
+        "ctaLink": "/news"
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-br from-slate-50 to-blue-50",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "latest-news",
+      "name": "Latest News",
+      "type": "latest-news",
+      "content": {
+        "title": "Latest News & Updates",
+        "subtitle": "Stay informed about our latest projects, industry insights, and company news",
+        "ctaText": "Read All News",
+        "ctaLink": "/news",
+        "posts": [
+          {
+            "title": "New Dolby Atmos Studio Opens",
+            "excerpt": "We're excited to announce the opening of our new Dolby Atmos mastering suite, featuring state-of-the-art 7.1.4 monitoring.",
+            "date": "2024-01-15",
+            "category": "Facilities",
+            "author": "Posta Vermaas Team",
+            "slug": "new-dolby-atmos-studio"
+          },
+          {
+            "title": "Award-Winning Project Recognition",
+            "excerpt": "Our work on 'The Last Light' has been nominated for the Gouden Kalf award for Best Sound Design.",
+            "date": "2024-01-10",
+            "category": "Awards",
+            "author": "Posta Vermaas Team",
+            "slug": "gouden-kalf-nomination"
+          },
+          {
+            "title": "International Co-production Success",
+            "excerpt": "We're proud to announce our collaboration on a major international streaming series with global distribution.",
+            "date": "2024-01-05",
+            "category": "Projects",
+            "author": "Posta Vermaas Team",
+            "slug": "international-coproduction"
+          },
+          {
+            "title": "Technology Update: New Pro Tools Integration",
+            "excerpt": "Our studios have been upgraded with the latest Pro Tools Ultimate features for enhanced workflow efficiency.",
+            "date": "2023-12-20",
+            "category": "Technology",
+            "author": "Technical Team",
+            "slug": "pro-tools-upgrade"
+          },
+          {
+            "title": "Team Expansion",
+            "excerpt": "We're thrilled to welcome two new sound designers to our growing team of audio professionals.",
+            "date": "2023-12-15",
+            "category": "Team",
+            "author": "HR Team",
+            "slug": "team-expansion"
+          },
+          {
+            "title": "Industry Conference Participation",
+            "excerpt": "Our team will be presenting at the upcoming Audio Engineering Society conference in Amsterdam.",
+            "date": "2023-12-10",
+            "category": "Events",
+            "author": "Posta Vermaas Team",
+            "slug": "aes-conference"
+          }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "news-cta",
+      "name": "News CTA",
+      "type": "cta",
+      "content": {
+        "title": "Stay Updated",
+        "subtitle": "Subscribe to our newsletter for the latest news and updates from Posta Vermaas",
+        "ctaText": "Subscribe",
+        "ctaLink": "/contact",
+        "secondaryCtaText": "Contact Us",
+        "secondaryCtaLink": "/contact"
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-br from-blue-600 to-indigo-700",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "News - Latest Updates from Posta Vermaas",
+    "description": "Stay updated with the latest news, project updates, industry insights, and company announcements from Posta Vermaas audio post production.",
+    "keywords": [
+      "audio post production news",
+      "Posta Vermaas updates",
+      "industry news",
+      "project updates",
+      "company announcements",
+      "audio technology news"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/news",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": true,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2024-01-15T10:00:00.000Z"
+}

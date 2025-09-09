@@ -1,0 +1,296 @@
+{
+  "facilities": [
+    {
+      "id": "1",
+      "name": "Dolby Atmos Stage",
+      "type": "Mastering Suite",
+      "description": "Our flagship Dolby Atmos mastering suite features state-of-the-art technology for immersive audio production.",
+      "specifications": {
+        "monitoring": [
+          "JBL 708P speakers (7.1.4 setup)",
+          "Dolby Atmos Mastering Suite software",
+          "Dolby RMU (Rendering and Mastering Unit)",
+          "Avid S6 console integration"
+        ],
+        "screen": "4K projection system with HDR support",
+        "projector": "Barco 4K laser projector",
+        "acoustics": [
+          "Custom acoustic treatment for Dolby Atmos",
+          "Variable acoustics for different project types",
+          "Sound isolation from external noise",
+          "Temperature and humidity control"
+        ],
+        "capacity": "Up to 12 people",
+        "dimensions": "8m x 6m x 4m (height)"
+      },
+      "images": [
+        "/images/facilities/real/postavermaas-black-red.png",
+        "/images/facilities/studio/the-miracle-of-the-sargasso-sea.jpg",
+        "/images/facilities/studio/Laureaat%20Gouden%20Kalf%202020%20PS_edited.png"
+      ],
+      "featured": true,
+      "availability": "Available",
+      "bookingUrl": "/contact",
+      "pricing": {
+        "hourly": 150,
+        "daily": 1000,
+        "weekly": 5000
+      },
+      "equipment": [
+        "Dolby Atmos 7.1.4 monitoring system",
+        "Avid S6 console",
+        "Pro Tools Ultimate HDX",
+        "Genelec monitoring speakers",
+        "4K projection system"
+      ],
+      "features": [
+        "Dolby Atmos certified",
+        "Real-time monitoring",
+        "Client collaboration tools",
+        "High-speed internet",
+        "Climate control"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Premix Stage A",
+      "type": "Re-recording Suite",
+      "description": "Professional re-recording suite equipped with the latest Pro Tools and monitoring technology.",
+      "specifications": {
+        "monitoring": [
+          "JBL 708P speakers (5.1 setup)",
+          "Pro Tools Ultimate with HDX",
+          "Avid S6 console",
+          "Neumann U87 microphones"
+        ],
+        "screen": "2K projection system",
+        "projector": "Epson 4K laser projector",
+        "acoustics": [
+          "Acoustic treatment optimized for mixing",
+          "Variable acoustics",
+          "Sound isolation"
+        ],
+        "capacity": "Up to 8 people",
+        "dimensions": "6m x 5m x 3.5m (height)"
+      },
+      "images": [
+        "/images/facilities/studio/343528_31f8478490b2496eb5f7a19aa51af6ea~mv2.png",
+        "/images/facilities/studio/343528_d50fa93adff6439e8e7186a4ad2fa8af~mv2.jpg"
+      ],
+      "featured": true,
+      "availability": "Available",
+      "bookingUrl": "/contact",
+      "pricing": {
+        "hourly": 120,
+        "daily": 800,
+        "weekly": 4000
+      },
+      "equipment": [
+        "Pro Tools Ultimate HDX",
+        "Avid S6 console",
+        "JBL 708P monitoring",
+        "Neumann U87 microphones",
+        "2K projection system"
+      ],
+      "features": [
+        "Professional mixing environment",
+        "Client monitoring capabilities",
+        "High-quality recording equipment",
+        "Acoustic treatment",
+        "Flexible configuration"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Premix Stage B",
+      "type": "Re-recording Suite",
+      "description": "Secondary re-recording suite perfect for smaller projects and client monitoring.",
+      "specifications": {
+        "monitoring": [
+          "JBL 708P speakers (5.1 setup)",
+          "Pro Tools Ultimate",
+          "Avid S3 console",
+          "Neumann U87 microphones"
+        ],
+        "screen": "2K projection system",
+        "projector": "Epson 4K laser projector",
+        "acoustics": [
+          "Acoustic treatment for mixing",
+          "Sound isolation",
+          "Climate control"
+        ],
+        "capacity": "Up to 6 people",
+        "dimensions": "5m x 4m x 3m (height)"
+      },
+      "images": [
+        "/images/facilities/studio/343528_2a69f402dbd74fb3bb3b21f8a3a9dfdd~mv2.png",
+        "/images/facilities/studio/Beste%20Sound%20Kalf%20Nominatie%202023.png"
+      ],
+      "featured": true,
+      "availability": "Available",
+      "bookingUrl": "/contact",
+      "pricing": {
+        "hourly": 100,
+        "daily": 650,
+        "weekly": 3200
+      },
+      "equipment": [
+        "Pro Tools Ultimate",
+        "Avid S3 console",
+        "JBL 708P monitoring",
+        "Neumann U87 microphones",
+        "2K projection system"
+      ],
+      "features": [
+        "Compact mixing suite",
+        "Client monitoring",
+        "Professional equipment",
+        "Sound isolation",
+        "Cost-effective"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sound Editorial Suite",
+      "type": "Editing Suite",
+      "description": "Dedicated sound editorial suite for dialogue editing, sound design, and preparation work.",
+      "specifications": {
+        "monitoring": [
+          "JBL 708P speakers (stereo)",
+          "Pro Tools Ultimate",
+          "High-quality headphones",
+          "Multiple monitor setup"
+        ],
+        "acoustics": [
+          "Acoustic treatment for editing",
+          "Sound isolation",
+          "Climate control"
+        ],
+        "capacity": "Up to 4 people",
+        "dimensions": "4m x 3m x 2.5m (height)"
+      },
+      "images": [
+        "/images/facilities/sound-editorial-1.jpg",
+        "/images/facilities/sound-editorial-2.jpg"
+      ],
+      "featured": true,
+      "availability": "Available",
+      "bookingUrl": "/contact",
+      "pricing": {
+        "hourly": 80,
+        "daily": 500,
+        "weekly": 2500
+      },
+      "equipment": [
+        "Pro Tools Ultimate",
+        "High-quality monitoring",
+        "Professional headphones",
+        "Multiple displays",
+        "Ergonomic workspace"
+      ],
+      "features": [
+        "Sound editing focused",
+        "Dialogue editing",
+        "Sound design preparation",
+        "Professional monitoring",
+        "Efficient workflow"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Foley Stage",
+      "type": "Recording Studio",
+      "description": "Professional foley stage with various surface materials and high-quality recording equipment.",
+      "specifications": {
+        "monitoring": [
+          "JBL 708P speakers (stereo)",
+          "Pro Tools Ultimate",
+          "High-quality microphones",
+          "Real-time monitoring"
+        ],
+        "acoustics": [
+          "Variable acoustics",
+          "Multiple surface materials",
+          "Sound isolation",
+          "Climate control"
+        ],
+        "capacity": "Up to 6 people",
+        "dimensions": "6m x 4m x 3m (height)"
+      },
+      "images": [
+        "/images/facilities/foley-stage-1.jpg",
+        "/images/facilities/foley-stage-2.jpg",
+        "/images/facilities/foley-stage-3.jpg"
+      ],
+      "featured": true,
+      "availability": "Available",
+      "bookingUrl": "/contact",
+      "pricing": {
+        "hourly": 90,
+        "daily": 600,
+        "weekly": 3000
+      },
+      "equipment": [
+        "Pro Tools Ultimate",
+        "High-quality microphones",
+        "Various surface materials",
+        "Real-time monitoring",
+        "Professional recording setup"
+      ],
+      "features": [
+        "Foley recording",
+        "Multiple surface materials",
+        "Professional equipment",
+        "Real-time monitoring",
+        "Sound effects creation"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "ADR Booth",
+      "type": "Recording Studio",
+      "description": "Sound-isolated ADR booth with professional voice direction capabilities.",
+      "specifications": {
+        "monitoring": [
+          "JBL 708P speakers (stereo)",
+          "Pro Tools Ultimate",
+          "Neumann U87 microphones",
+          "Real-time monitoring"
+        ],
+        "acoustics": [
+          "Sound isolation",
+          "Acoustic treatment",
+          "Climate control"
+        ],
+        "capacity": "Up to 4 people",
+        "dimensions": "3m x 2m x 2.5m (height)"
+      },
+      "images": [
+        "/images/facilities/adr-booth-1.jpg",
+        "/images/facilities/adr-booth-2.jpg"
+      ],
+      "featured": true,
+      "availability": "Available",
+      "bookingUrl": "/contact",
+      "pricing": {
+        "hourly": 85,
+        "daily": 550,
+        "weekly": 2750
+      },
+      "equipment": [
+        "Pro Tools Ultimate",
+        "Neumann U87 microphones",
+        "Sound isolation treatment",
+        "Real-time monitoring",
+        "Professional voice direction"
+      ],
+      "features": [
+        "ADR recording",
+        "Sound isolation",
+        "Voice direction",
+        "Professional microphones",
+        "Real-time monitoring"
+      ]
+    }
+  ]
+}

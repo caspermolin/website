@@ -1,0 +1,391 @@
+{
+  "people": [
+    {
+      "id": "1",
+      "name": "Marco Vermaas",
+      "role": "Co-owner, Sound Designer, Re-recording Mixer",
+      "roles": [
+        "Co-owner",
+        "Sound Designer",
+        "Re-recording Mixer"
+      ],
+      "bio": "Marco Vermaas is co-owner of Posta Vermaas and a highly experienced sound designer and re-recording mixer with over 20 years of experience in the industry.",
+      "image": "/images/people/marco-vermaas.jpg",
+      "email": "marco@postavermaas.nl",
+      "phone": "+31 20 123 4567",
+      "specialties": [
+        "Sound Design",
+        "Re-recording Mix",
+        "Dolby Atmos",
+        "Pro Tools",
+        "Audio Post Production"
+      ],
+      "experience": "20+ years",
+      "education": "Fine Arts, Gerrit Rietveld Academie",
+      "awards": [
+        "Golden Reel Award",
+        "Gouden Kalf nominations"
+      ],
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "2",
+      "name": "Jan Schermer",
+      "role": "Co-owner, Sound Designer, Re-recording Mixer, SSE",
+      "roles": [
+        "Co-owner",
+        "Sound Designer",
+        "Re-recording Mixer",
+        "SSE"
+      ],
+      "bio": "Jan Schermer is co-owner of Posta Vermaas and specializes in sound design, re-recording mixing, and SSE (Sound System Engineering).",
+      "image": "/images/people/jan-schermer.jpg",
+      "email": "jan@postavermaas.nl",
+      "phone": "+31 20 123 4568",
+      "specialties": [
+        "Sound Design",
+        "Re-recording Mix",
+        "SSE",
+        "Dolby Atmos",
+        "Pro Tools"
+      ],
+      "experience": "18+ years",
+      "education": "Audio Engineering",
+      "awards": [
+        "Gouden Kalf winner"
+      ],
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "3",
+      "name": "Christan Muiser",
+      "role": "Co-owner, Sound Designer, Re-recording Mixer",
+      "roles": [
+        "Co-owner",
+        "Sound Designer",
+        "Re-recording Mixer"
+      ],
+      "bio": "Christan Muiser is co-owner of Posta Vermaas and a highly experienced sound designer and re-recording mixer. With over 15 years in the industry, Christan specializes in creative sound design for feature films and high-end television productions. He has been instrumental in establishing Posta Vermaas as a leader in Dutch audio post production.",
+      "image": "/images/people/christan-muiser.jpg",
+      "email": "christan@postavermaas.nl",
+      "phone": "+31 20 123 4569",
+      "specialties": [
+        "Sound Design",
+        "Re-recording Mix",
+        "Dolby Atmos",
+        "Feature Films",
+        "Creative Direction"
+      ],
+      "experience": "15+ years",
+      "education": "Audio Engineering, SAE Institute",
+      "awards": [
+        "Gouden Kalf nominations",
+        "International project credits"
+      ],
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "4",
+      "name": "Jos van Galen",
+      "role": "Sound Designer, Re-recording Mixer",
+      "roles": [
+        "Sound Designer",
+        "Re-recording Mixer"
+      ],
+      "bio": "Jos van Galen is an experienced sound designer and re-recording mixer specializing in Dutch and international productions.",
+      "image": "/images/people/jos-van-galen.jpg",
+      "email": "jos@postavermaas.nl",
+      "phone": "+31 20 123 4570",
+      "specialties": [
+        "Sound Design",
+        "Re-recording Mix",
+        "Dolby Atmos",
+        "International Productions"
+      ],
+      "experience": "16+ years",
+      "education": "Audio Engineering",
+      "awards": [
+        "Gouden Kalf nominations"
+      ],
+      "featured": true,
+      "order": 4
+    },
+    {
+      "id": "5",
+      "name": "Martijn Snoeren",
+      "role": "Sound Editor, Sound Designer",
+      "roles": [
+        "Sound Editor",
+        "Sound Designer"
+      ],
+      "bio": "Martijn Snoeren specializes in sound editing and sound design, ensuring perfect audio quality for all productions.",
+      "image": "/images/people/martijn-snoeren.jpg",
+      "email": "martijn@postavermaas.nl",
+      "phone": "+31 20 123 4571",
+      "specialties": [
+        "Sound Editing",
+        "Sound Design",
+        "Pro Tools",
+        "Dialogue"
+      ],
+      "experience": "12+ years",
+      "education": "Audio Engineering",
+      "awards": [
+        "Gouden Kalf nominations"
+      ],
+      "featured": true,
+      "order": 5
+    },
+    {
+      "id": "6",
+      "name": "Max van den Oever",
+      "role": "Co-owner, Sound Designer, Re-recording Mixer, SSE",
+      "roles": [
+        "Co-owner",
+        "Sound Designer",
+        "Re-recording Mixer",
+        "SSE"
+      ],
+      "bio": "Max van den Oever is co-owner of Posta Vermaas and specializes in sound design, re-recording mixing, and SSE.",
+      "image": "/images/people/max-van-den-oever.jpg",
+      "email": "max@postavermaas.nl",
+      "phone": "+31 20 123 4572",
+      "specialties": [
+        "Sound Design",
+        "Re-recording Mix",
+        "SSE",
+        "Dolby Atmos",
+        "Pro Tools"
+      ],
+      "experience": "17+ years",
+      "education": "Audio Engineering",
+      "awards": [
+        "Gouden Kalf winner"
+      ],
+      "featured": true,
+      "order": 6
+    },
+    {
+      "id": "7",
+      "name": "Maria Kramer",
+      "role": "SSE, Sound Designer, Re-recording Mixer",
+      "roles": [
+        "SSE",
+        "Sound Designer",
+        "Re-recording Mixer"
+      ],
+      "bio": "Maria Kramer specializes in Sound System Engineering, sound design, and re-recording mixing.",
+      "image": "/images/people/maria-kramer.jpg",
+      "email": "maria@postavermaas.nl",
+      "phone": "+31 20 123 4573",
+      "specialties": [
+        "SSE",
+        "Sound Design",
+        "Re-recording Mix",
+        "Dolby Atmos",
+        "Pro Tools"
+      ],
+      "experience": "14+ years",
+      "education": "Audio Engineering",
+      "awards": [
+        "Gouden Kalf nominations"
+      ],
+      "featured": true,
+      "order": 7
+    },
+    {
+      "id": "8",
+      "name": "Babi Bork",
+      "role": "Sound Designer, Re-recording Mixer",
+      "roles": [
+        "Sound Designer",
+        "Re-recording Mixer"
+      ],
+      "bio": "Babi Bork is a skilled sound designer and re-recording mixer with expertise in feature films and series.",
+      "image": "/images/people/babi-bork.jpg",
+      "email": "babi@postavermaas.nl",
+      "phone": "+31 20 123 4574",
+      "specialties": [
+        "Sound Design",
+        "Re-recording Mix",
+        "Dolby Atmos",
+        "Feature Films"
+      ],
+      "experience": "13+ years",
+      "education": "Audio Engineering",
+      "awards": [
+        "Gouden Kalf nominations"
+      ],
+      "featured": true,
+      "order": 8
+    },
+    {
+      "id": "9",
+      "name": "Casper Molin",
+      "role": "Sound Designer, SSE, Support",
+      "roles": [
+        "Sound Designer",
+        "SSE",
+        "Support"
+      ],
+      "bio": "Casper Molin handles sound design, SSE, and technical support for all productions.",
+      "image": "/images/people/casper-molin.jpg",
+      "email": "casper@postavermaas.nl",
+      "phone": "+31 20 123 4575",
+      "specialties": [
+        "Sound Design",
+        "SSE",
+        "Technical Support",
+        "Pro Tools"
+      ],
+      "experience": "11+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 9
+    },
+    {
+      "id": "10",
+      "name": "Boris Seinen",
+      "role": "Sound Designer, Technical Support",
+      "roles": [
+        "Sound Designer",
+        "Technical Support"
+      ],
+      "bio": "Boris Seinen provides sound design and technical support for all Posta Vermaas productions.",
+      "image": "/images/people/boris-seinen.jpg",
+      "email": "boris@postavermaas.nl",
+      "phone": "+31 20 123 4576",
+      "specialties": [
+        "Sound Design",
+        "Technical Support",
+        "Pro Tools",
+        "Audio Post Production"
+      ],
+      "experience": "10+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 10
+    },
+    {
+      "id": "11",
+      "name": "Tifanie Ashba",
+      "role": "Sound Designer, IT",
+      "roles": [
+        "Sound Designer",
+        "IT"
+      ],
+      "bio": "Tifanie Ashba handles sound design and IT support for Posta Vermaas.",
+      "image": "/images/people/tifanie-ashba.jpg",
+      "email": "tifanie@postavermaas.nl",
+      "phone": "+31 20 123 4577",
+      "specialties": [
+        "Sound Design",
+        "IT Support",
+        "Pro Tools",
+        "Audio Post Production"
+      ],
+      "experience": "9+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 11
+    },
+    {
+      "id": "12",
+      "name": "Chaja Koe",
+      "role": "In-house Producer",
+      "roles": [
+        "In-house Producer"
+      ],
+      "bio": "Chaja Koe manages in-house production and ensures smooth project delivery.",
+      "image": "/images/people/chaja-koe.jpg",
+      "email": "chaja@postavermaas.nl",
+      "phone": "+31 20 123 4578",
+      "specialties": [
+        "Production Management",
+        "Project Coordination",
+        "Workflow",
+        "Delivery"
+      ],
+      "experience": "8+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 12
+    },
+    {
+      "id": "13",
+      "name": "Naomi Polhaupessy",
+      "role": "In-house Producer",
+      "roles": [
+        "In-house Producer"
+      ],
+      "bio": "Naomi Polhaupessy manages in-house production and project coordination.",
+      "image": "/images/people/naomi-polhaupessy.jpg",
+      "email": "naomi@postavermaas.nl",
+      "phone": "+31 20 123 4579",
+      "specialties": [
+        "Production Management",
+        "Project Coordination",
+        "Workflow",
+        "Delivery"
+      ],
+      "experience": "7+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 13
+    },
+    {
+      "id": "14",
+      "name": "Valeria Riquelme",
+      "role": "In-house Producer",
+      "roles": [
+        "In-house Producer"
+      ],
+      "bio": "Valeria Riquelme handles in-house production and project management.",
+      "image": "/images/people/valeria-riquelme.jpg",
+      "email": "valeria@postavermaas.nl",
+      "phone": "+31 20 123 4580",
+      "specialties": [
+        "Production Management",
+        "Project Coordination",
+        "Workflow",
+        "Delivery"
+      ],
+      "experience": "6+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 14
+    },
+    {
+      "id": "15",
+      "name": "Lowies Muiser",
+      "role": "In-house Producer",
+      "roles": [
+        "In-house Producer"
+      ],
+      "bio": "Lowies Muiser manages in-house production and ensures project success.",
+      "image": "/images/people/lowies-muiser.jpg",
+      "email": "lowies@postavermaas.nl",
+      "phone": "+31 20 123 4581",
+      "specialties": [
+        "Production Management",
+        "Project Coordination",
+        "Workflow",
+        "Delivery"
+      ],
+      "experience": "5+ years",
+      "education": "Audio Engineering",
+      "awards": [],
+      "featured": true,
+      "order": 15
+    }
+  ]
+}

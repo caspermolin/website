@@ -1,0 +1,369 @@
+{
+  "id": "about",
+  "title": "About Us",
+  "path": "/about-us",
+  "type": "page",
+  "sections": [
+    {
+      "id": "about-hero",
+      "name": "About Hero",
+      "type": "hero",
+      "content": {
+        "id": "about-hero",
+        "type": "hero",
+        "order": 0,
+        "visible": true,
+        "content": {
+          "title": "About Posta Vermaas",
+          "subtitle": "",
+          "description": "Foundedd in 2008, POSTA VERMAAS is the Dutch market-leading audiopost facility for feature films and hi-end TV- and VOD-drama operating from the heart of its motion-picture industry, Amsterdam.",
+          "ctaText": "Get in Touch",
+          "ctaLink": "/contact",
+          "images": [
+            {
+              "id": "about-image",
+              "url": "/images/about/team-photo.jpg",
+              "alt": "Posta Vermaas Team",
+              "title": "Our Team",
+              "width": 800,
+              "height": 600
+            }
+          ],
+          "settings": {
+            "background": "gradient-to-br from-primary-50 to-accent-50",
+            "padding": "py-16",
+            "margin": "0",
+            "textAlign": "left",
+            "maxWidth": "4xl",
+            "animation": "fadeIn",
+            "visibility": "visible"
+          }
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "mission-section",
+      "name": "Mission Section",
+      "type": "text",
+      "content": {
+        "title": "Our Mission",
+        "content": "To elevate storytelling through exceptional sound design and immersive audio experiences.",
+        "images": [],
+        "settings": {
+          "background": "#ffffff",
+          "padding": "section-padding",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "4xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "section-padding",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "stats-section",
+      "name": "Stats Section",
+      "type": "stats",
+      "content": {
+        "title": "Our Impact",
+        "subtitle": "Numbers that speak to our experience and success",
+        "stats": [
+          {
+            "number": "15+",
+            "label": "Years Experience"
+          },
+          {
+            "number": "200+",
+            "label": "Projects Completed"
+          },
+          {
+            "number": "50+",
+            "label": "International Credits"
+          },
+          {
+            "number": "2",
+            "label": "Amsterdam Locations"
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "values-section",
+      "name": "Values Section",
+      "type": "values",
+      "content": {
+        "title": "What Drives Us",
+        "subtitle": "Our core values guide everything we do",
+        "values": [
+          {
+            "icon": "Award",
+            "title": "Excellence",
+            "description": "We strive for the highest quality in every project, pushing the boundaries of audio post production."
+          },
+          {
+            "icon": "Users",
+            "title": "Collaboration",
+            "description": "We work closely with our clients to understand their vision and bring it to life through sound."
+          },
+          {
+            "icon": "Globe",
+            "title": "Innovation",
+            "description": "We embrace cutting-edge technology and creative techniques to deliver exceptional results."
+          },
+          {
+            "icon": "Building",
+            "title": "Reliability",
+            "description": "We deliver projects on time and within budget, maintaining consistent quality standards."
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "#ffffff",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "facilities-section",
+      "name": "Facilities Section",
+      "type": "facilities",
+      "content": {
+        "title": "State-of-the-Art Studios",
+        "subtitle": "Professional facilities equipped with the latest technology",
+        "facilities": [
+          {
+            "name": "Dolby Atmos Stage",
+            "description": "State-of-the-art mastering suite with 7.1.4 monitoring system",
+            "features": [
+              "Dolby RMU integration",
+              "4K projection",
+              "Acoustic treatment"
+            ]
+          },
+          {
+            "name": "Premix Stages",
+            "description": "Professional re-recording suites with Pro Tools Ultimate",
+            "features": [
+              "Avid S6 console",
+              "5.1 monitoring",
+              "Client monitoring"
+            ]
+          },
+          {
+            "name": "Foley Stage",
+            "description": "Dedicated foley stage with various surface materials",
+            "features": [
+              "Custom sound effects",
+              "Real-time monitoring",
+              "High-quality mics"
+            ]
+          },
+          {
+            "name": "ADR Booth",
+            "description": "Sound-isolated ADR booth with voice direction capabilities",
+            "features": [
+              "Sound isolation",
+              "Neumann U87 mics",
+              "Real-time monitoring"
+            ]
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "timeline-section",
+      "name": "Timeline Section",
+      "type": "timeline",
+      "content": {
+        "title": "Our Journey",
+        "subtitle": "From founding to industry leadership",
+        "timeline": [
+          {
+            "year": "2008",
+            "title": "Posta Vermaas Founded",
+            "description": "Marco Vermaas and Jan Schermer established Posta Vermaas in Amsterdam with a vision to create a world-class audio post production facility focused on creative excellence and technical innovation."
+          },
+          {
+            "year": "2012",
+            "title": "First International Projects",
+            "description": "We began working on international co-productions, establishing our reputation for high-quality audio work beyond Dutch borders."
+          },
+          {
+            "year": "2015",
+            "title": "Dolby Atmos Pioneer",
+            "description": "We became one of the first facilities in the Netherlands to offer Dolby Atmos mixing, positioning us at the forefront of immersive audio technology."
+          },
+          {
+            "year": "2020",
+            "title": "Remote Collaboration Leader",
+            "description": "We implemented Source Connect Pro and became leaders in remote collaboration, enabling seamless international workflows."
+          },
+          {
+            "year": "2024",
+            "title": "Industry Recognition",
+            "description": "Multiple Gouden Kalf nominations and international awards recognize our continued excellence in audio post production."
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "#ffffff",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "left",
+          "maxWidth": "4xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "left",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "awards-section",
+      "name": "Awards Section",
+      "type": "awards",
+      "content": {
+        "title": "Awards & Recognition",
+        "subtitle": "Industry recognition for our outstanding work",
+        "awards": [
+          {
+            "name": "Gouden Kalf",
+            "year": "2023",
+            "category": "Best Sound Design",
+            "project": "The Last Light"
+          },
+          {
+            "name": "Gouden Kalf",
+            "year": "2021",
+            "category": "Best Sound Design",
+            "project": "Amsterdam Stories"
+          },
+          {
+            "name": "International Sound Award",
+            "year": "2022",
+            "category": "Excellence in Audio",
+            "project": "Global Productions"
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "About Us - Posta Vermaas Audio Post Production",
+    "description": "Founded in 2008, POSTA VERMAAS is the Dutch market-leading audiopost facility for feature films and hi-end TV- and VOD-drama operating from the heart of its motion-picture industry, Amsterdam.",
+    "keywords": [
+      "about Posta Vermaas",
+      "audio post production company",
+      "Amsterdam audio studio"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/about-us",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": true,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2025-09-09T06:29:47.226Z"
+}

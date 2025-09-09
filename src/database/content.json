@@ -1,0 +1,41 @@
+{
+  "homepage": {
+    "hero": {
+      "title": "Dutch market-leading audiopost facility",
+      "subtitle": "for feature films and hi-end TV- and VOD-drama",
+      "description": "Operating from the heart of its motion-picture industry, Amsterdam, POSTA VERMAAS provides complete audio post production packages for feature films and high-end television productions."
+    },
+    "services": [
+      "Sound Design",
+      "Re-recording Mixing",
+      "ADR Recording",
+      "Foley Recording",
+      "Dolby Atmos",
+      "Source Connect"
+    ]
+  },
+  "about": {
+    "title": "About Posta Vermaas",
+    "description": "Founded in 2008, POSTA VERMAAS is the Dutch market-leading audiopost facility for feature films and hi-end TV- and VOD-drama operating from the heart of its motion-picture industry, Amsterdam.",
+    "mission": "To elevate storytelling through exceptional sound design and immersive audio experiences.",
+    "vision": "To be Europe's most respected audio post production facility."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Complete audio post production services from concept to delivery."
+  },
+  "facilities": {
+    "title": "Our Facilities",
+    "description": "State-of-the-art audio studios equipped with the latest technology."
+  },
+  "people": {
+    "title": "Our Team",
+    "description": "Meet our experienced professionals."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Koivistokade 58, Amsterdam",
+    "phone": "+31 20 123 4567",
+    "email": "info@postavermaas.nl"
+  }
+}

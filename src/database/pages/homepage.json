@@ -1,0 +1,290 @@
+{
+  "id": "homepage",
+  "title": "Homepage",
+  "path": "/",
+  "type": "page",
+  "sections": [
+    {
+      "id": "hero-section",
+      "name": "Hero Section",
+      "type": "hero",
+      "content": {
+        "title": "Leading Audio Post Production",
+        "subtitle": "Crafting Immersive Sound for Film & Television",
+        "description": "Based in Amsterdam's creative heart, POSTA VERMAAS delivers world-class audio post production services for feature films, television series, and streaming content. From Dolby Atmos mixing to creative sound design, we bring your vision to life.",
+        "ctaText": "Start Your Project",
+        "ctaLink": "/contact",
+        "images": [],
+        "settings": {
+          "background": "bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900",
+          "padding": "min-h-screen flex items-center justify-center",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "services-section",
+      "name": "Services Section",
+      "type": "services",
+      "content": {
+        "title": "Our Expertise",
+        "subtitle": "Complete audio post production from concept to delivery",
+        "services": [
+          "Sound Design & Supervision",
+          "Re-recording & Final Mixing",
+          "ADR Recording & Dialogue Editing",
+          "Foley Production & Sound Effects",
+          "Dolby Atmos & Immersive Audio",
+          "Remote Collaboration & Source Connect"
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-20",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "usp-section",
+      "name": "Why Choose Us",
+      "type": "usp",
+      "content": {
+        "title": "Why Choose POSTA VERMAAS",
+        "subtitle": "Industry-leading expertise with cutting-edge technology",
+        "usps": [
+          {
+            "icon": "🎵",
+            "title": "Creative Sound Design",
+            "description": "Award-winning sound designers who bring stories to life through innovative audio storytelling and immersive soundscapes.",
+            "features": [
+              "Creative sound supervision",
+              "Immersive sound design",
+              "Award-winning approach",
+              "Story-driven audio"
+            ]
+          },
+          {
+            "icon": "🎚️",
+            "title": "Technical Excellence",
+            "description": "State-of-the-art mixing suites with Pro Tools Ultimate, Dolby Atmos certification, and industry-leading monitoring systems.",
+            "features": [
+              "Pro Tools Ultimate certified",
+              "Dolby Atmos 7.1.4 monitoring",
+              "High-end analog consoles",
+              "Industry-standard workflows"
+            ]
+          },
+          {
+            "icon": "🌍",
+            "title": "Global Reach",
+            "description": "Strategic Amsterdam location with seamless remote collaboration capabilities, serving international productions worldwide.",
+            "features": [
+              "Source Connect Pro",
+              "Real-time remote mixing",
+              "Global client base",
+              "International standards"
+            ]
+          },
+          {
+            "icon": "🏆",
+            "title": "Proven Track Record",
+            "description": "15+ years of excellence with multiple Gouden Kalf wins, international co-productions, and industry recognition.",
+            "features": [
+              "Multiple Gouden Kalf wins",
+              "International productions",
+              "Industry recognition",
+              "Proven reliability"
+            ]
+          },
+          {
+            "icon": "⚡",
+            "title": "Complete Solutions",
+            "description": "End-to-end audio post production services from pre-production planning to final delivery and mastering.",
+            "features": [
+              "Full-service packages",
+              "Pre-production consulting",
+              "Quality assurance",
+              "On-time delivery"
+            ]
+          },
+          {
+            "icon": "🤝",
+            "title": "Collaborative Partnership",
+            "description": "Close collaboration with directors, producers, and post teams to achieve creative vision and technical perfection.",
+            "features": [
+              "Client-focused approach",
+              "Creative collaboration",
+              "Transparent communication",
+              "Flexible workflows"
+            ]
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-white",
+          "padding": "py-24",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "7xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "featured-projects",
+      "name": "Featured Projects",
+      "type": "featured-projects",
+      "content": {
+        "title": "Recent Work",
+        "subtitle": "Showcasing our latest audio post production projects",
+        "ctaText": "View All Projects",
+        "ctaLink": "/projects",
+        "projects": [],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-20",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "7xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "latest-news",
+      "name": "Latest News",
+      "type": "latest-news",
+      "content": {
+        "title": "Industry Insights",
+        "subtitle": "Stay updated with our latest projects, techniques, and industry trends",
+        "ctaText": "Read All News",
+        "ctaLink": "/news",
+        "posts": [],
+        "images": [],
+        "settings": {
+          "background": "bg-white",
+          "padding": "py-20",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "7xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "partners",
+      "name": "Partners",
+      "type": "partners",
+      "content": {
+        "title": "Trusted Partners",
+        "subtitle": "Collaborating with industry leaders worldwide",
+        "partners": [
+          {
+            "name": "Netflix",
+            "logo": "/images/partners/netflix.png",
+            "description": "Global streaming platform"
+          },
+          {
+            "name": "Amazon Prime Video",
+            "logo": "/images/partners/amazon-prime.png",
+            "description": "Premium streaming service"
+          },
+          {
+            "name": "HBO Max",
+            "logo": "/images/partners/hbo-max.png",
+            "description": "Premium entertainment"
+          },
+          {
+            "name": "Disney+",
+            "logo": "/images/partners/disney-plus.png",
+            "description": "Family entertainment"
+          },
+          {
+            "name": "Apple TV+",
+            "logo": "/images/partners/apple-tv.png",
+            "description": "Original content platform"
+          },
+          {
+            "name": "HBO",
+            "logo": "/images/partners/hbo.png",
+            "description": "Premium television"
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-24",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "7xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "POSTA VERMAAS - Leading Audio Post Production | Amsterdam",
+    "description": "Award-winning audio post production studio in Amsterdam. Complete sound services for film, TV & streaming: Dolby Atmos, sound design, re-recording mixing, ADR, foley.",
+    "keywords": [
+      "audio post production",
+      "sound design Amsterdam",
+      "Dolby Atmos mixing",
+      "film audio post",
+      "television sound",
+      "re-recording mixing",
+      "ADR recording",
+      "foley studio",
+      "POSTA VERMAAS"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": false,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2025-09-09T06:39:31.516Z"
+}

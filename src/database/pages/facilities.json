@@ -1,0 +1,299 @@
+{
+  "id": "facilities",
+  "title": "Facilities",
+  "path": "/facilities",
+  "type": "page",
+  "sections": [
+    {
+      "id": "facilities-hero",
+      "name": "Facilities Hero",
+      "type": "hero",
+      "content": {
+        "title": "Our Facilities",
+        "subtitle": "Professional Audio Post Production Studios",
+        "description": "Six state-of-the-art studios featuring Dolby Atmos, professional monitoring systems, and industry-standard equipment for every production need.",
+        "ctaText": "Schedule a Tour",
+        "ctaLink": "/contact"
+      },
+      "images": [
+        {
+          "id": "facilities-main",
+          "url": "/images/facilities/dolby-atmos-1.jpg",
+          "alt": "Dolby Atmos Studio",
+          "title": "Main Mixing Suite",
+          "width": 800,
+          "height": 600
+        }
+      ],
+      "settings": {
+        "background": "gradient-to-br from-slate-50 to-blue-50",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "facilities-overview",
+      "name": "Facilities Overview",
+      "type": "text",
+      "content": {
+        "title": "Professional Audio Studios",
+        "content": "Our six professional studios combine cutting-edge technology with acoustic excellence. From our flagship Dolby Atmos Suite (Studio A) to our versatile control rooms (Studios C, D, E, F, G), we provide the perfect environment for every audio production and post-production need. Each studio is equipped with industry-standard equipment and interconnected via Dante networking for seamless workflow."
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "section-padding",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "3xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "studio-details",
+      "name": "Studio Details",
+      "type": "studio-details",
+      "content": {
+        "title": "Our Studios",
+        "subtitle": "State-of-the-art facilities for every production need",
+        "studios": [
+          {
+            "name": "Studio A - Dolby Atmos Suite",
+            "description": "Sophisticated Dolby Atmos environment with interconnected systems for professional audio production",
+            "features": ["Dolby AMS Mac Mini M2 Pro", "Avid MTRX routing", "NanoSync word clock", "Barco 4K Projector", "Dolby Atmos monitoring"],
+            "equipment": ["Dolby AMS Mac Mini M2 Pro", "Avid MTRX", "NanoSync HD", "PT_A1-Main (Mac Pro)", "PT_A2-Video (Mac Pro)", "Barco Projector"],
+            "image": "/images/facilities/studio-a.jpg",
+            "technical_details": {
+              "monitoring": "Dolby Atmos with Theater Physical monitoring",
+              "sync": "NanoSync HD word clock",
+              "routing": "Avid MTRX with MADI and Dante",
+              "projection": "Barco 4K projector with DCP support"
+            }
+          },
+          {
+            "name": "Studio C - Control Room",
+            "description": "Professional control room with Mac Studio M1 Ultra and Avid MTRX Studio for audio production",
+            "features": ["Mac Studio M1 Ultra", "Avid MTRX Studio", "PSI A23 LCR monitors", "PSI A21 surround", "Custom LFE subwoofer"],
+            "equipment": ["Mac Studio M1 Ultra", "Avid MTRX Studio", "Avid HD Native PCIe", "Panasonic 4K Projector", "Blackmagic Decklink", "Focusrite ISA 428 MkII", "2x Avid S1", "Avid Dock"],
+            "image": "/images/facilities/studio-c.jpg",
+            "technical_details": {
+              "monitoring": "3x PSI A23 LCR + 6x PSI A21 surround + Custom LFE",
+              "audio_interface": "Avid MTRX Studio via HDX",
+              "projection": "Panasonic 4K via Blackmagic Decklink",
+              "control": "2x Avid S1 + Avid Dock + iPad"
+            }
+          },
+          {
+            "name": "Studio D - Control Room",
+            "description": "Identical setup to Studio C with Mac Studio M1 Ultra and professional monitoring system",
+            "features": ["Mac Studio M1 Ultra", "Avid MTRX Studio", "PSI A23 LCR monitors", "PSI A21 surround", "Custom LFE subwoofer"],
+            "equipment": ["Mac Studio M1 Ultra", "Avid MTRX Studio", "Avid HD Native PCIe", "Panasonic 4K Projector", "Blackmagic Decklink", "Focusrite ISA 428 MkII", "2x Avid S1", "Avid Dock"],
+            "image": "/images/facilities/studio-d.jpg",
+            "technical_details": {
+              "monitoring": "3x PSI A23 LCR + 6x PSI A21 surround + Custom LFE",
+              "audio_interface": "Avid MTRX Studio via HDX",
+              "projection": "Panasonic 4K via Blackmagic Decklink",
+              "control": "2x Avid S1 + Avid Dock + iPad"
+            }
+          },
+          {
+            "name": "Studio E - Control Room & Booth",
+            "description": "Control room and booth setup with Mac Mini M2 Pro and Genelec monitoring system",
+            "features": ["Mac Mini M2 Pro", "Lynx Aurora 8", "Genelec 1030 monitors", "Genelec subwoofer", "Dididesign D-Command"],
+            "equipment": ["Mac Mini M2 Pro", "Avid HD Native PCIe", "Focusrite Rednet 5", "Lynx Aurora 8", "Mackie HM800", "Dididesign D-Command", "5x Genelec 1030", "Genelec subwoofer"],
+            "image": "/images/facilities/studio-e.jpg",
+            "technical_details": {
+              "monitoring": "5x Genelec 1030 + Genelec subwoofer",
+              "audio_interface": "Lynx Aurora 8 via Dante",
+              "control": "Dididesign D-Command (future: Avid S1 + Dock)",
+              "expansion": "Channels 5-6 reserved for future surround speakers"
+            }
+          },
+          {
+            "name": "Studio F - Control Room & Booth",
+            "description": "Control room and booth setup with Mac Mini M2 Pro, Lynx Aurora 8, and Genelec monitoring",
+            "features": ["Mac Mini M2 Pro", "Lynx Aurora 8", "Genelec 1030 monitors", "JBL subwoofer", "Avid S1", "Focusrite X2p"],
+            "equipment": ["Mac Mini M2 Pro", "Avid HD Native PCIe", "Focusrite Rednet 5", "Lynx Aurora 8", "MiniDSP 10x10", "Mackie HM800", "Avid S1", "3x Genelec 1030", "JBL subwoofer", "Focusrite X2p"],
+            "image": "/images/facilities/studio-f.jpg",
+            "technical_details": {
+              "monitoring": "3x Genelec 1030 + JBL subwoofer",
+              "audio_interface": "Lynx Aurora 8 via Dante",
+              "control": "Avid S1 + Sphere software",
+              "booth": "Focusrite X2p for booth microphones",
+              "expansion": "Channels 5-6 reserved for future surround speakers"
+            }
+          },
+          {
+            "name": "Studio G - Control Room & Booth",
+            "description": "Control room and booth setup with Mac Mini M2 Pro, PSI monitoring, and Avid S3 control surface",
+            "features": ["Mac Mini M2 Pro", "Lynx Aurora 8", "PSI LCR monitors", "Genelec surround", "PSI subwoofer", "Avid S3"],
+            "equipment": ["Mac Mini M2 Pro", "Avid HD Native PCIe", "Focusrite Rednet 5", "Lynx Aurora 8", "Avid S3", "Avid Dock", "Focusrite Octo Preamp", "3x PSI LCR", "2x Genelec surround", "PSI subwoofer"],
+            "image": "/images/facilities/studio-g.jpg",
+            "technical_details": {
+              "monitoring": "3x PSI LCR + 2x Genelec surround + PSI subwoofer",
+              "audio_interface": "Lynx Aurora 8 via Dante",
+              "control": "Avid S3 + Avid Dock + iPad",
+              "microphones": "Focusrite Octo Preamp (8 channels)",
+              "future": "Surround speakers will be replaced with PSI speakers"
+            }
+          }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "equipment-list",
+      "name": "Equipment List",
+      "type": "equipment-list",
+      "content": {
+        "title": "Professional Equipment",
+        "subtitle": "Industry-standard tools for exceptional results",
+        "categories": [
+          {
+            "name": "Microphones",
+            "equipment": [
+              "Neumann U87 (Large Diaphragm Condenser) - 1x",
+              "Neumann U67 (Vintage Tube Condenser) - 1x", 
+              "Neumann TLM103 (Large Diaphragm Condenser) - 4x",
+              "Neumann KMR 81i (Shotgun Condenser) - 2x",
+              "Sanken Cos 11 (Lavalier) - 2x",
+              "DPA 6060 (Lavalier) - 2x",
+              "Sennheiser 8060 (Shotgun Condenser) - 0x",
+              "AKG C214 (Large Diaphragm Condenser) - 1x"
+            ]
+          },
+          {
+            "name": "Audio Interfaces & Routing",
+            "equipment": [
+              "Avid MTRX (Studio A)",
+              "Avid MTRX Studio (Studio C & D)",
+              "Focusrite Rednet 5 (Studio E)",
+              "Lynx Aurora 8 (Studio E)",
+              "Focusrite ISA 428 MkII Preamp",
+              "Swisonic Headamp 8 Headphone Amplifier"
+            ]
+          },
+          {
+            "name": "Monitoring Systems",
+            "equipment": [
+              "PSI A23 LCR monitors (Studio C & D)",
+              "PSI A21 surround monitors (Studio C & D)",
+              "Genelec 1030 monitors (Studio E)",
+              "Genelec subwoofer (Studio E)",
+              "Custom LFE subwoofer (Studio C & D)",
+              "Crown XTI 4000 LFE Amp",
+              "Crown DSI 4000 LFE Amp"
+            ]
+          },
+          {
+            "name": "Control Surfaces",
+            "equipment": [
+              "Avid S1 (Studio C & D)",
+              "Avid Dock (Studio C & D)",
+              "Dididesign D-Command (Studio E)",
+              "iPad control (Studio C & D)"
+            ]
+          },
+          {
+            "name": "Computers & Processing",
+            "equipment": [
+              "Dolby AMS Mac Mini M2 Pro (Studio A)",
+              "Mac Pro 2019 HDX (PT_A1-Main)",
+              "Mac Pro 2010 HDX (PT_A2-Video)",
+              "Mac Studio M1 Ultra (Studio C & D)",
+              "Mac Mini M2 Pro 2023 (Studio E)"
+            ]
+          },
+          {
+            "name": "Sync & Clocking",
+            "equipment": [
+              "NanoSync HD (Studio A)",
+              "Avid SYNC HD (Studio A)",
+              "Dolby Atmos Remote application"
+            ]
+          },
+          {
+            "name": "Projection & Video",
+            "equipment": [
+              "Barco 4K Projector (Studio A)",
+              "Panasonic 4K Projector (Studio C & D)",
+              "Blackmagic Decklink Minimonitor 4K"
+            ]
+          }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "tour-cta",
+      "name": "Schedule a Tour",
+      "type": "cta",
+      "content": {
+        "title": "Schedule a Studio Tour",
+        "subtitle": "See our facilities in person and discuss your project needs",
+        "ctaText": "Book a Tour",
+        "ctaLink": "/contact",
+        "secondaryCtaText": "View Virtual Tour",
+        "secondaryCtaLink": "/virtual-tour"
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-br from-blue-600 to-indigo-700",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "Facilities - Posta Vermaas Audio Post Production Studios",
+    "description": "Six professional audio studios featuring Dolby Atmos Suite, PSI monitoring systems, and industry-standard equipment for film and television post-production.",
+    "keywords": [
+      "audio post production facilities",
+      "Dolby Atmos studio",
+      "Amsterdam studios",
+      "PSI monitors",
+      "Avid MTRX",
+      "Neumann microphones",
+      "Pro Tools studios"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/facilities",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": true,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2024-01-12T10:00:00.000Z"
+}

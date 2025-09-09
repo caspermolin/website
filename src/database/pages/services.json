@@ -1,0 +1,455 @@
+{
+  "id": "services",
+  "title": "Services",
+  "path": "/services",
+  "type": "page",
+  "sections": [
+    {
+      "id": "services-hero",
+      "name": "Services Hero",
+      "type": "hero",
+      "content": {
+        "id": "services-hero",
+        "type": "hero",
+        "order": 0,
+        "visible": true,
+        "content": {
+          "title": "Our Services",
+          "subtitle": "Completee Audio Post Production",
+          "description": "Complete audio post production services from concept to delivery.",
+          "ctaText": "Get Started",
+          "ctaLink": "/contact",
+          "images": [],
+          "settings": {
+            "background": "gradient-to-br from-slate-50 to-blue-50",
+            "padding": "py-20",
+            "margin": "0",
+            "textAlign": "center",
+            "maxWidth": "4xl",
+            "animation": "fadeIn",
+            "visibility": "visible"
+          }
+        }
+      },
+      "images": [],
+      "settings": {
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "services-highlights",
+      "name": "Services Highlights",
+      "type": "service-highlights",
+      "content": {
+        "title": "Our Services",
+        "subtitle": "From initial concept to final delivery, we provide comprehensive audio post production services that transform creative visions into extraordinary sonic experiences.",
+        "images": [],
+        "settings": {
+          "background": "#ffffff",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        },
+        "highlights": [
+          {
+            "title": "Sound Design",
+            "description": "Award-winning creative sound design",
+            "icon": "🎵",
+            "features": []
+          },
+          {
+            "title": "Re-recording Mix",
+            "description": "Dolby Atmos certified mixing suites",
+            "icon": "🎚️",
+            "features": []
+          },
+          {
+            "title": "ADR Recording",
+            "description": "Professional voice recording & direction",
+            "icon": "🎤",
+            "features": []
+          },
+          {
+            "title": "Foley Production",
+            "description": "Authentic sound effects creation",
+            "icon": "👣",
+            "features": []
+          }
+        ]
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "adr-focus",
+      "name": "Adr Focus",
+      "type": "adr-focus",
+      "content": {
+        "title": "🎤 ADR Excellence",
+        "subtitle": "Our state-of-the-art ADR booth and experienced voice directors ensure perfect lip-sync and natural performances. Professional Neumann U87 microphones and real-time monitoring for exceptional results.",
+        "features": [
+          {
+            "title": "🎙️ Professional Equipment",
+            "items": [
+              "Neumann U87 microphones",
+              "Sound-isolated booth",
+              "Real-time monitoring"
+            ]
+          },
+          {
+            "title": "🎭 Voice Direction",
+            "items": [
+              "Experienced directors",
+              "Multiple language support",
+              "Emotional guidance"
+            ]
+          },
+          {
+            "title": "🔧 Technical Excellence",
+            "items": [
+              "Perfect lip-sync",
+              "High-quality audio",
+              "Professional workflow"
+            ]
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-gradient-to-r from-blue-50 to-indigo-50",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-r from-blue-50 to-indigo-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "services-detailed",
+      "name": "Services Detailed",
+      "type": "services-detailed",
+      "content": {
+        "title": "Complete Audio Post Production Services",
+        "subtitle": "Every project benefits from our technical expertise and artistic passion",
+        "services": [
+          {
+            "name": "Sound Design",
+            "description": "Creative sound design that enhances storytelling and emotional impact.",
+            "features": [
+              "Custom sound effects creation",
+              "Ambient sound design",
+              "Character sound signatures",
+              "Creative audio solutions"
+            ],
+            "equipment": [
+              "Pro Tools Ultimate",
+              "Native Instruments Komplete",
+              "Field recording equipment",
+              "Custom sound libraries"
+            ],
+            "workflow": [
+              "Creative consultation",
+              "Sound design development",
+              "Implementation and integration",
+              "Final polish and delivery"
+            ],
+            "deliverables": [
+              "Custom sound effects library",
+              "Ambient soundscapes",
+              "Character sound signatures",
+              "Implementation guide"
+            ]
+          },
+          {
+            "name": "Re-recording Mixing",
+            "description": "Professional re-recording mixing services for film, television, and streaming content.",
+            "features": [
+              "Multi-track mixing",
+              "Dialogue editing and cleanup",
+              "Music and effects balancing",
+              "Final mix delivery"
+            ],
+            "equipment": [
+              "Pro Tools Ultimate",
+              "Avid S6 console",
+              "JBL 708P monitoring system",
+              "Neumann U87 microphones"
+            ],
+            "workflow": [
+              "Pre-mix preparation",
+              "Dialogue editing",
+              "Music and effects integration",
+              "Final mix and delivery"
+            ],
+            "deliverables": [
+              "Final mix masters",
+              "Stems (dialogue, music, effects)",
+              "M&E (music and effects) tracks",
+              "Quality control reports"
+            ]
+          },
+          {
+            "name": "Dolby Atmos",
+            "description": "Immersive 3D audio experience that places sound in a three-dimensional space around the audience.",
+            "features": [
+              "Object-based audio mixing",
+              "Spatial audio design",
+              "Multi-channel monitoring",
+              "Dolby Atmos Mastering Suite"
+            ],
+            "equipment": [
+              "Dolby Atmos Mastering Suite",
+              "JBL 708P monitors (7.1.4 setup)",
+              "Pro Tools Ultimate with Dolby Atmos Renderer",
+              "Dolby RMU (Rendering and Mastering Unit)"
+            ],
+            "workflow": [
+              "Pre-mix preparation",
+              "Object-based audio placement",
+              "Spatial audio design",
+              "Final mix and mastering"
+            ],
+            "deliverables": [
+              "Dolby Atmos master file (.atmos)",
+              "7.1.4 stems",
+              "5.1 and stereo downmixes",
+              "Quality control reports"
+            ]
+          },
+          {
+            "name": "Foley",
+            "description": "Custom foley services that bring authenticity and detail to every scene.",
+            "features": [
+              "Custom footsteps and movement",
+              "Prop and object sounds",
+              "Clothing and fabric sounds",
+              "Environmental foley"
+            ],
+            "equipment": [
+              "Dedicated foley stage",
+              "High-quality microphones",
+              "Extensive prop collection",
+              "Various surface materials"
+            ],
+            "workflow": [
+              "Scene analysis",
+              "Foley recording sessions",
+              "Editing and processing",
+              "Integration with final mix"
+            ],
+            "deliverables": [
+              "Foley tracks",
+              "Sync reference",
+              "Foley breakdown",
+              "Quality control reports"
+            ]
+          },
+          {
+            "name": "ADR",
+            "description": "Professional ADR (Automated Dialogue Replacement) services with experienced voice direction.",
+            "features": [
+              "Professional voice direction",
+              "Actor coaching and guidance",
+              "Seamless dialogue replacement",
+              "Multiple language support"
+            ],
+            "equipment": [
+              "Sound-isolated ADR booth",
+              "High-quality microphones",
+              "Real-time monitoring",
+              "Video playback systems"
+            ],
+            "workflow": [
+              "Script analysis",
+              "Actor preparation",
+              "Recording sessions",
+              "Post-processing and integration"
+            ],
+            "deliverables": [
+              "ADR tracks",
+              "Sync reference",
+              "Quality control reports",
+              "Multiple language versions"
+            ]
+          },
+          {
+            "name": "Commercials",
+            "description": "High-impact audio post production for commercial and advertising content.",
+            "features": [
+              "Quick turnaround times",
+              "Brand-specific audio identity",
+              "Multiple format delivery",
+              "Creative audio solutions"
+            ],
+            "equipment": [
+              "Pro Tools Ultimate",
+              "High-end monitoring",
+              "Commercial music libraries",
+              "Voice talent network"
+            ],
+            "workflow": [
+              "Creative brief analysis",
+              "Audio production",
+              "Client review and revisions",
+              "Final delivery"
+            ],
+            "deliverables": [
+              "Final commercial audio",
+              "Multiple format versions",
+              "Stems for international versions",
+              "Quality control reports"
+            ]
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "#ffffff",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "left",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "#ffffff",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "left",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "workflow-section",
+      "name": "Workflow Section",
+      "type": "workflow",
+      "content": {
+        "title": "How We Work",
+        "subtitle": "A streamlined process that ensures quality and efficiency",
+        "steps": [
+          {
+            "number": "01",
+            "title": "Pre-Production",
+            "description": "We analyze your project requirements and create a detailed production plan."
+          },
+          {
+            "number": "02",
+            "title": "Production",
+            "description": "Our team works on your project using state-of-the-art equipment and techniques."
+          },
+          {
+            "number": "03",
+            "title": "Review & Revision",
+            "description": "We present our work for your review and make any necessary adjustments."
+          },
+          {
+            "number": "04",
+            "title": "Final Delivery",
+            "description": "We deliver the final audio files in your preferred format and specifications."
+          }
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-slate-50",
+        "padding": "py-16",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "6xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    },
+    {
+      "id": "cta-section",
+      "name": "Cta Section",
+      "type": "cta",
+      "content": {
+        "title": "Ready to Start Your Project?",
+        "subtitle": "Contact us today to discuss your audio post production needs",
+        "ctaText": "Get a Quote",
+        "ctaLink": "/contact",
+        "secondaryCtaText": "View Our Work",
+        "secondaryCtaLink": "/projects",
+        "images": [],
+        "settings": {
+          "background": "bg-gradient-to-br from-blue-600 to-indigo-700",
+          "padding": "py-20",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "4xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
+      },
+      "images": [],
+      "settings": {
+        "background": "bg-gradient-to-br from-blue-600 to-indigo-700",
+        "padding": "py-20",
+        "margin": "0",
+        "textAlign": "center",
+        "maxWidth": "4xl",
+        "animation": "fadeIn",
+        "visibility": "visible"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "Services - Posta Vermaas Audio Post Production",
+    "description": "Complete audio post production services from concept to delivery.",
+    "keywords": [
+      "audio post production services",
+      "sound design",
+      "Dolby Atmos",
+      "ADR recording"
+    ],
+    "ogImage": "/og-image.jpg",
+    "canonical": "/services",
+    "robots": "index, follow"
+  },
+  "settings": {
+    "theme": "auto",
+    "layout": "default",
+    "showBreadcrumbs": true,
+    "showFooter": true,
+    "customCSS": "",
+    "customJS": ""
+  },
+  "lastModified": "2025-09-09T06:30:50.535Z"
+}

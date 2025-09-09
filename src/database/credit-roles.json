@@ -1,0 +1,53 @@
+{
+  "creditRoles": [
+    {
+      "id": "soundDesign",
+      "name": "Sound Design",
+      "category": "core",
+      "description": "Responsible for creating and implementing the sound design for the project",
+      "order": 1
+    },
+    {
+      "id": "reRecordingMix",
+      "name": "Re-recording Mix",
+      "category": "core",
+      "description": "Handles the final mixing and mastering of all audio elements",
+      "order": 2
+    },
+    {
+      "id": "audioPostProducer",
+      "name": "Audio Post Producer",
+      "category": "core",
+      "description": "Oversees the entire audio post-production process",
+      "order": 3
+    },
+    {
+      "id": "soundEditor",
+      "name": "Sound Editor",
+      "category": "core",
+      "description": "Edits and prepares sound effects and audio elements",
+      "order": 4
+    },
+    {
+      "id": "dialogueEditor",
+      "name": "Dialogue Editor",
+      "category": "core",
+      "description": "Edits and processes dialogue recordings",
+      "order": 5
+    },
+    {
+      "id": "adr",
+      "name": "ADR",
+      "category": "core",
+      "description": "Automated Dialogue Replacement - re-recording dialogue in post-production",
+      "order": 6
+    },
+    {
+      "id": "foley",
+      "name": "Foley",
+      "category": "core",
+      "description": "Creates and records sound effects to match on-screen actions",
+      "order": 7
+    }
+  ]
+}
