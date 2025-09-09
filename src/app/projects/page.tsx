@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import ProjectsGrid from '@/components/sections/ProjectsGrid';
+import ProjectsFilter from '@/components/sections/ProjectsFilter';
 // Types
 interface Page {
   id: string;
@@ -141,9 +143,11 @@ const renderBlock = (block: PageBlock, projects: any[], visibleProjectsCount: nu
                       {/* Project Image */}
                       {project.poster && (
                         <div className="aspect-w-16 aspect-h-9">
-                          <img 
-                            src={project.poster} 
+                          <Image
+                            src={project.poster}
                             alt={project.title}
+                            width={400}
+                            height={225}
                             className="w-full h-48 object-cover"
                           />
                         </div>

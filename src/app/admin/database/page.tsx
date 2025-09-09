@@ -21,7 +21,6 @@ import {
   AlertTriangle,
   Star
 } from 'lucide-react';
-import SimpleCreditsManager from '@/components/admin/SimpleCreditsManager';
 import ImageUpload from '@/components/admin/ImageUpload';
 import TagsManager from '@/components/admin/TagsManager';
 import RolesDatabaseManager from '@/components/admin/RolesDatabaseManager';
@@ -1270,10 +1269,18 @@ function EditModal({ item, dbType, onSave, onClose }: {
           <div className="text-xs text-gray-500 mb-2">
             Add people and their specific roles on this project (e.g., "Sound Design", "Re-recording Mix", "ADR")
           </div>
-          <SimpleCreditsManager
-            credits={editedItem[key] || {}}
-            onChange={(credits) => setEditedItem({ ...editedItem, credits })}
-            allPeople={getAllPeopleNames}
+          <textarea
+            value={JSON.stringify(editedItem[key] || {}, null, 2)}
+            onChange={(e) => {
+              try {
+                const parsed = JSON.parse(e.target.value);
+                setEditedItem({ ...editedItem, [key]: parsed });
+              } catch (err) {
+                // Invalid JSON, keep current value
+              }
+            }}
+            className="w-full h-48 p-3 border border-gray-300 rounded-md font-mono text-sm"
+            placeholder="Enter credits as JSON..."
           />
         </div>
       );

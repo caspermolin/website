@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 // Types
@@ -212,9 +213,11 @@ function renderBlock(block: PageBlock, homepageData: {projects: any[], news: any
                     {/* Project Image */}
                     {project.poster && (
                       <div className="aspect-w-16 aspect-h-9">
-                          <img 
-                            src={project.poster} 
+                          <Image
+                            src={project.poster}
                             alt={project.title}
+                            width={400}
+                            height={225}
                             className="w-full h-48 object-cover"
                           />
                       </div>

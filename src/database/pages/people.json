@@ -13,7 +13,17 @@
         "subtitle": "Experienced Professionals",
         "description": "Meet our experienced professionals who bring creativity and technical mastery to every project.",
         "ctaText": "Join Our Team",
-        "ctaLink": "/contact"
+        "ctaLink": "/contact",
+        "images": [],
+        "settings": {
+          "background": "gradient-to-br from-slate-50 to-blue-50",
+          "padding": "py-20",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "4xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
       },
       "images": [],
       "settings": {
@@ -28,26 +38,32 @@
     },
     {
       "id": "team-stats",
-      "name": "Team Statistics",
+      "name": "Team Stats",
       "type": "stats",
       "content": {
         "title": "Our Team by the Numbers",
         "subtitle": "Experienced professionals dedicated to excellence",
         "stats": [
-          { "number": "15+", "label": "Years Experience" },
-          { "number": "8", "label": "Team Members" },
-          { "number": "50+", "label": "International Credits" },
-          { "number": "200+", "label": "Projects Completed" }
+          {
+            "number": "16+",
+            "label": "Years Experience"
+          },
+          {
+            "number": "8",
+            "label": "Team Members"
+          },
+          {
+            "number": "50+",
+            "label": "International Credits"
+          },
+          {
+            "number": "200+",
+            "label": "Projects Completed"
+          }
         ]
       },
       "images": [],
       "settings": {
-        "background": "#ffffff",
-        "padding": "py-16",
-        "margin": "0",
-        "textAlign": "center",
-        "maxWidth": "6xl",
-        "animation": "fadeIn",
         "visibility": "visible"
       }
     },
@@ -65,9 +81,18 @@
             "bio": "Marco Vermaas is co-owner of Posta Vermaas and a highly experienced sound designer and re-recording mixer with over 20 years of experience in the industry.",
             "image": "/images/people/marco-vermaas.jpg",
             "email": "marco@postavermaas.nl",
-            "specialties": ["Sound Design", "Re-recording Mix", "Dolby Atmos", "Pro Tools", "Audio Post Production"],
+            "specialties": [
+              "Sound Design",
+              "Re-recording Mix",
+              "Dolby Atmos",
+              "Pro Tools",
+              "Audio Post Production"
+            ],
             "experience": "20+ years",
-            "awards": ["Golden Reel Award", "Gouden Kalf nominations"],
+            "awards": [
+              "Golden Reel Award",
+              "Gouden Kalf nominations"
+            ],
             "featured": true
           },
           {
@@ -76,9 +101,15 @@
             "bio": "With over 15 years of experience in audio post production, Erik has worked on award-winning films and television series. He specializes in Dolby Atmos mixing and complex sound design for feature films.",
             "image": "/images/people/erik-vermaas.jpg",
             "email": "erik@postavermaas.com",
-            "specialties": ["Sound Design", "Re-recording Mix", "Co-owner"],
+            "specialties": [
+              "Sound Design",
+              "Re-recording Mix",
+              "Co-owner"
+            ],
             "experience": "15+ years",
-            "awards": ["Gouden Kalf winner"],
+            "awards": [
+              "Gouden Kalf winner"
+            ],
             "featured": true
           },
           {
@@ -87,7 +118,10 @@
             "bio": "Sarah brings a unique creative perspective to sound design, with a background in music composition and field recording. She has worked on documentaries and independent films.",
             "image": "/images/people/sarah-chen.jpg",
             "email": "sarah@postavermaas.com",
-            "specialties": ["Sound Design", "Foley Artist"],
+            "specialties": [
+              "Sound Design",
+              "Foley Artist"
+            ],
             "experience": "8+ years",
             "awards": [],
             "featured": true
@@ -98,12 +132,25 @@
             "bio": "Lisa specializes in ADR direction and voice coaching, ensuring perfect lip-sync and natural performances. She has worked on international co-productions in multiple languages.",
             "image": "/images/people/lisa-thompson.jpg",
             "email": "lisa@postavermaas.com",
-            "specialties": ["ADR", "Voice Direction"],
+            "specialties": [
+              "ADR",
+              "Voice Direction"
+            ],
             "experience": "10+ years",
             "awards": [],
             "featured": true
           }
-        ]
+        ],
+        "images": [],
+        "settings": {
+          "background": "bg-slate-50",
+          "padding": "py-16",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "6xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
       },
       "images": [],
       "settings": {
@@ -118,7 +165,7 @@
     },
     {
       "id": "join-team",
-      "name": "Join Our Team",
+      "name": "Join Team",
       "type": "cta",
       "content": {
         "title": "Join Our Team",
@@ -126,7 +173,17 @@
         "ctaText": "View Open Positions",
         "ctaLink": "/contact",
         "secondaryCtaText": "Send Your CV",
-        "secondaryCtaLink": "mailto:jobs@postavermaas.com"
+        "secondaryCtaLink": "mailto:jobs@postavermaas.com",
+        "images": [],
+        "settings": {
+          "background": "bg-gradient-to-br from-blue-600 to-indigo-700",
+          "padding": "py-20",
+          "margin": "0",
+          "textAlign": "center",
+          "maxWidth": "4xl",
+          "animation": "fadeIn",
+          "visibility": "visible"
+        }
       },
       "images": [],
       "settings": {
@@ -160,5 +217,5 @@
     "customCSS": "",
     "customJS": ""
   },
-  "lastModified": "2024-01-11T10:00:00.000Z"
+  "lastModified": "2025-09-09T07:26:41.365Z"
 }

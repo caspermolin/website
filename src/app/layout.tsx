@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import StructuredData from '@/components/SEO/StructuredData';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -27,75 +28,13 @@ async function getSiteMetadata(): Promise<Metadata> {
 
   // Fallback metadata
   return {
-    title: {
-      default: 'Posta Vermaas - Professional Audio Post Production',
-      template: '%s | Posta Vermaas',
-    },
-    description: 'Professional audio post production services including Dolby Atmos, sound design, re-recording mixing, ADR, and foley. Based in Amsterdam with state-of-the-art facilities.',
-    keywords: [
-      'audio post production',
-      'Dolby Atmos',
-      'sound design',
-      're-recording mixing',
-      'ADR',
-      'foley',
-      'Amsterdam',
-      'film audio',
-      'television audio',
-      'commercial audio'
-    ],
-    authors: [{ name: 'Posta Vermaas' }],
-    creator: 'Posta Vermaas',
-    publisher: 'Posta Vermaas',
-    formatDetection: {
-      email: false,
-      address: false,
-      telephone: false,
-    },
-    metadataBase: new URL('https://postavermaas.com'),
-    alternates: {
-      canonical: '/',
-      languages: {
-        'en-US': '/',
-        'nl-NL': '/nl',
-      },
-    },
-    openGraph: {
-      type: 'website',
-      locale: 'en_US',
-      url: 'https://postavermaas.com',
-      siteName: 'Posta Vermaas',
-      title: 'Posta Vermaas - Professional Audio Post Production',
-      description: 'Professional audio post production services including Dolby Atmos, sound design, re-recording mixing, ADR, and foley. Based in Amsterdam with state-of-the-art facilities.',
-      images: [
-        {
-          url: '/og-image.jpg',
-          width: 1200,
-          height: 630,
-          alt: 'Posta Vermaas - Professional Audio Post Production',
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Posta Vermaas - Professional Audio Post Production',
-      description: 'Professional audio post production services including Dolby Atmos, sound design, re-recording mixing, ADR, and foley.',
-      images: ['/og-image.jpg'],
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-    verification: {
-      google: 'your-google-verification-code',
-    },
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.postavermaas.nl'),
+    title: { default: 'POSTA VERMAAS — Sound for Storytelling', template: '%s | POSTA VERMAAS' },
+    description: 'Audio post voor film & high-end drama: sound design, ADR, foley, Dolby Atmos mix.',
+    alternates: { canonical: '/' },
+    openGraph: { type: 'website', siteName: 'POSTA VERMAAS' },
+    twitter: { card: 'summary_large_image' },
+    robots: { index: true, follow: true }
   };
 }
 
@@ -112,6 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} antialiased`}>
+        <StructuredData />
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">

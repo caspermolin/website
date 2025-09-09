@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Car, Train, Bus, ExternalLink } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Car, Train, Bus, ExternalLink, Navigation } from 'lucide-react';
 import { mainLocation, secondaryLocation } from '@/data/locations';
 
 export default function LocationDetails() {

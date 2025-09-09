@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import SimpleCreditsManager from '@/components/admin/SimpleCreditsManager';
 import {
   Database,
   FileText,
@@ -1007,10 +1006,18 @@ function ProjectForm({ item, databaseType, onSave, onCancel }: {
           <div className="text-xs text-gray-500 mb-2">
             Add people and their specific roles on this project (e.g., "Sound Design", "Re-recording Mix", "ADR")
           </div>
-          <SimpleCreditsManager
-            credits={formData.credits || {}}
-            onChange={(credits) => updateFormData('credits', credits)}
-            allPeople={[]} // Will be populated from the database
+          <textarea
+            value={JSON.stringify(formData.credits || {}, null, 2)}
+            onChange={(e) => {
+              try {
+                const parsed = JSON.parse(e.target.value);
+                updateFormData('credits', parsed);
+              } catch (err) {
+                // Invalid JSON, keep current value
+              }
+            }}
+            className="w-full h-48 p-3 border border-gray-300 rounded-md font-mono text-sm"
+            placeholder="Enter credits as JSON..."
           />
         </div>
 
