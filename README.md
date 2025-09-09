@@ -1,16 +1,42 @@
-# POSTA VERMAAS - Database-Driven CMS Website
+# POSTA VERMAAS - Geoptimaliseerde Website 🚀
 
-Een professionele, volledig database-gedreven website voor POSTA VERMAAS, een toonaangevende audio post productie studio in Amsterdam. Gebouwd met moderne web technologieën en een krachtig Content Management System.
+**Website Hardening & Migratieplan Uitgevoerd - FASE A-D Voltooid**
+
+Een professionele, volledig geoptimaliseerde website voor POSTA VERMAAS, een toonaangevende audio post productie studio in Amsterdam. Gebouwd met moderne web technologieën, volledig gehard en SEO-geoptimaliseerd.
+
+## 🔧 **Website Hardening Status - FASE A-D VOLTOOID** ✅
+
+### ✅ **FASE A - Baseline & Upgrades**
+- **Node.js**: v24.7.0 (≥ 20 voldaan)
+- **Packages**: Next.js 15.5.2, React 19.1.1, TypeScript 5.9.2, ESLint 9.35.0
+- **Environment**: Geconfigureerd voor `https://www.postavermaas.nl`
+- **Repository**: Opgeschoond, ongebruikte bestanden verwijderd
+
+### ✅ **FASE B - TypeScript & Projectstructuur**
+- **TypeScript Config**: Strikte instellingen met moderne ES2022 features
+- **Code Cleanup**: 18+ ongebruikte bestanden verwijderd met knip/depcheck
+- **Dependencies**: Ongebruikte packages verwijderd (framer-motion, next-seo, etc.)
+
+### ✅ **FASE C - Performance & Core Web Vitals**
+- **Fonts**: Geoptimaliseerd met `next/font/google`
+- **Bundle Analyzer**: Opgezet voor performance monitoring
+- **Images**: `next/image` geïmplementeerd voor optimale laadtijden
+
+### ✅ **FASE D - SEO, Metadata & Structured Data**
+- **Metadata**: Volledig bijgewerkt voor POSTA VERMAAS branding
+- **SEO Routes**: `robots.ts` en `sitemap.ts` dynamisch opgezet
+- **Structured Data**: JSON-LD Organization schema toegevoegd
+
+---
 
 ## ✨ Belangrijkste Features
 
 ### 🎨 Moderne Design & Technologie
 - **Database-Driven CMS** - Alle content wordt dynamisch uit database geladen
 - **Admin Panel** - Volledige controle via professionele admin interface
-- **Drag & Drop Page Editor** - Visual content management
 - **Modern Design** - Clean, responsive design met Tailwind CSS
-- **TypeScript** - Volledige type veiligheid
-- **Next.js 14** - App Router voor optimale performance
+- **TypeScript** - Volledige type veiligheid en strikte configuratie
+- **Next.js 15** - App Router voor optimale performance
 
 ### 📝 Content Management System
 - **Real-time Content Updates** - Wijzigingen zijn direct zichtbaar
@@ -39,21 +65,23 @@ Een professionele, volledig database-gedreven website voor POSTA VERMAAS, een to
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
+- **Framework**: Next.js 15.5.2 (App Router) 🚀
+- **Language**: TypeScript 5.9.2 (strikte configuratie)
 - **Styling**: Tailwind CSS
 - **Database**: JSON File-based (extensible naar echte database)
 - **Icons**: Lucide React
 - **UI Components**: Custom component library
-- **SEO**: Next.js metadata API + structured data
-- **Image Optimization**: Next.js Image component
+- **SEO**: Next.js metadata API + structured data + robots.txt + sitemap.xml
+- **Image Optimization**: Next.js Image component + WebP/AVIF support
 - **API**: RESTful API routes voor alle CRUD operations
+- **Performance**: Bundle analyzer + code splitting + lazy loading
+- **Quality**: ESLint 9.35.0 + Prettier + knip (dead code detection)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 20+ (momenteel v24.7.0)
 - npm or yarn
 
 ### Installation
@@ -186,9 +214,12 @@ The website is optimized for deployment on Vercel, but can be deployed to any pl
 Create a `.env.local` file for environment-specific variables:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://postavermaas.com
+NEXT_PUBLIC_SITE_URL=https://www.postavermaas.nl
+CANONICAL_HOST=www.postavermaas.nl
 NEXT_PUBLIC_GA_ID=your-google-analytics-id
 ```
+
+**Belangrijk**: De environment variabelen zijn al geconfigureerd voor productie gebruik op `postavermaas.nl`.
 
 ## Contributing
 
